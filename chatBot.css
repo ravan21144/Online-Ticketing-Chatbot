@@ -1,0 +1,73 @@
+body
+{
+    background-color: rgb(203, 242, 239);
+}
+#chatbot {
+    display: inline-block;
+    border: 1px solid #ddd; /* softened border color */
+    border-radius: 10px; /* increased border radius for a smoother look */
+    width: 500px;
+    margin-left: 500px;
+    height: 500px;
+    margin-top: 100px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* added a subtle shadow */
+    background-color: #f9f9f9; /* added a light gray background */
+    padding: 20px; /* added some padding for a more comfortable layout */
+    background-color: azure;
+  }
+  #heading {
+    padding-left: 65px;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #conversation {
+    height: 250px;
+    overflow-y: auto;
+    max-height: 250px;
+    padding: 20px; /* added some padding for a more comfortable layout */
+    background-color: #fff; /* added a white background for better contrast */
+    border: 1px solid #ddd; /* added a border to separate the conversation area */
+    border-radius: 10px; /* increased border radius for a smoother look */
+  }
+  
+  #messageUser {
+    width: 98.5%;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px; /* added some padding for a more comfortable layout */
+    border: 1px solid #ddd; /* added a border to separate the message area */
+    border-radius: 10px; /* increased border radius for a smoother look */
+    background-color: #f9f9f9; /* added a light gray background */
+  }
+  
+  #conversation::-webkit-scrollbar-thumb {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px; /* increased border radius for a smoother look */
+    background-color: #ccc; /* darkened the scrollbar thumb color */
+  }
+  
+  #sendButton {
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+    margin-left: 200px;
+    background-color: #34C759; /* changed the button color to a more vibrant green */
+    color: #fff; /* changed the button text color to white */
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+    margin-top: 5px;
+    border-radius: 10px; /* increased border radius for a smoother look */
+    cursor: pointer; /* added a pointer cursor for better usability */
+  }
+  
+  #sendButton:active {
+    color: #34C759; /* changed the button text color to the same green as the background */
+    background-color: #fff; /* changed the button background color to white */
+    border: 1px solid #34C759; /* added a border to the active state */
+  }
